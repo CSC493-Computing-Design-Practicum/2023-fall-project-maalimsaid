@@ -1,4 +1,7 @@
 # *The African Student Association Club Website*
+
+https://docs.google.com/document/d/1uQLdbNrMOTlyCQZElNmGJxLN7pKK2capNRFPTSuz2hk/edit?usp=sharing
+
 ## Description/Motivation
 
 The African Students Association (ASA) at Berea College has been a pivotal institution, fostering understanding, appreciation, and celebration of African cultures and heritage. Over the years, ASA has amassed a wealth of resources, hosted numerous events, and created a strong alumni network. As the current president of ASA and a Computer Science major, I recognize the importance of centralizing these resources, improving communication, and creating a digital footprint that would ensure the continuity and growth of the club. Therefore, I propose the development of a fully integrated and responsive website tailored for the ASA club.
