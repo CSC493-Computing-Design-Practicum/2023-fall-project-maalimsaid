@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BC - African Student Association</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .description {
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        button {
+            display: block;
+            width: 150px;
+            margin: 30px auto;
+            padding: 10px 15px;
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 15px;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">ABOUT US</a>
+            <a href="#">EVENTS</a>
+            <a href="#">CONTACT US</a>
+            <a href="#">DONATE</a>
+        </nav>
+        <h1>BC - African Student Association</h1>
+    </header>
+
+    <div class="container">
+        <div class="description">
+            <p>The BC-African Student Association is dedicated to promoting the rich cultural heritage of Africa, fostering unity among African students, and advancing mutual understanding and cooperation between African students and the wider community.</p>
+            <p>We hope to be a vibrant, inclusive community where African students thrive academically, socially, and culturally, while actively contributing to the enrichment of multiculturalism on campus and beyond.</p>
+        </div>
+        <img src="C:\Users\maalims\Desktop\ASA'23-24\bk chat1.jpeg" alt="African Student Association Gathering">
+        <button>JOIN ASA</button>
+    </div>
+</body>
+
+</html>
