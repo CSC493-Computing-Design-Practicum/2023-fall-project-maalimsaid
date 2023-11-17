@@ -248,3 +248,19 @@
         }
     </style>
 </head>
+
+</head>
+<body>
+
+    <div class="donation-container">
+        <div class="donation-text">
+            <h2>Donate to ASA.</h2>
+            <p>Your contribution is more than just a donation; it's a testament to the importance of preserving and promoting African culture. By donating, you empower us to continue our mission, ensuring that the vibrant colors of African culture remain vivid and influential for generations to come. Join our cause and make a difference today.</p>
+            <button class="donation-button">DONATE</button>
+        </div>
+        <div class="donation-image">
+            <img src="alumni-image.jpg" alt="ASA Alumni Celebrating">
+        </div>
+    </div>
+
+</body>
