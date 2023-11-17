@@ -94,3 +94,82 @@
 </body>
 
 </html>
+
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Upcoming Events</title>
+      <style>
+          body {
+              font-family: 'Arial', sans-serif;
+              background-color: #f4f4f4;
+              margin: 0;
+              padding: 0;
+          }
+          .events-header {
+              text-align: center;
+              font-size: 2em;
+              margin-top: 20px;
+          }
+          .events-container {
+              display: flex;
+              justify-content: space-around;
+              margin-top: 20px;
+              flex-wrap: wrap;
+              padding: 20px;
+          }
+          .event-card {
+              background: white;
+              width: 300px;
+              margin: 10px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+              border-radius: 5px;
+              overflow: hidden;
+          }
+          .event-card img {
+              width: 100%;
+              height: auto;
+          }
+          .event-info {
+              padding: 15px;
+          }
+          .event-title {
+              font-size: 1.2em;
+              margin-bottom: 10px;
+          }
+          .event-description {
+              font-size: 0.9em;
+              color: #555;
+              margin-bottom: 15px;
+          }
+          .rsvp-button {
+              background: #333;
+              color: white;
+              text-decoration: none;
+              padding: 10px 20px;
+              display: inline-block;
+              margin-bottom: 15px;
+              border-radius: 5px;
+              transition: background-color 0.3s;
+          }
+          .rsvp-button:hover {
+              background-color: #555;
+          }
+          .more-events {
+              text-align: center;
+              margin-top: 20px;
+          }
+          .more-events button {
+              padding: 10px 20px;
+              background: #333;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              transition: background-color 0.3s;
+          }
+          .more-events button:hover {
+              background-color: #555;
+          }
+      </style>
+  </head>
