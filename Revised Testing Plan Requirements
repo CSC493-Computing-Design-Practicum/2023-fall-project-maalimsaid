@@ -1,0 +1,83 @@
+Test Plan for ASA Website 
+
+Testing Summary
+The testing activities for the ASA Website will involve validating the functionality, usability, and performance of the website against the outlined requirements. 
+The testing approach will be a combination of manual and automated testing methods, focusing on key user interactions and backend processes. 
+The primary goal is to ensure that all features work as expected, the website is user-friendly and accessible, and the backend handles data efficiently and securely.
+
+                                            Key Test Cases
+
+Test Case 1: Navigation Functionality
+Test Case ID: TC-ASA-001
+Requirement: ASA-001
+Preconditions: The website is loaded on a web browser.
+Steps:
+Click on each navigation link (ABOUT US, EVENTS, CONTACT US).
+Click on the DONATE button.
+Desired Results:
+Each navigation link leads to the corresponding section of the website.
+The DONATE button opens a donation page or section.
+
+Test Case 2: Alumni Information CRUD Operations
+Test Case ID: TC-ASA-002
+Requirement: ASA-002
+Preconditions: Admin is logged into the backend system.
+Steps:
+Add a new alumni entry.
+Edit an existing alumni entry.
+Delete an alumni entry.
+Retrieve and view all alumni entries.
+Desired Results:
+New alumni entry is added successfully.
+Existing alumni entry is updated successfully.
+Alumni entry is deleted successfully.
+All alumni entries are displayed correctly.
+
+
+Test Case 3: Contact Form Submission
+Test Case ID: TC-ASA-004
+Requirement: ASA-004
+Preconditions: The CONTACT US section is visible on the website.
+Steps:
+Fill in the contact form with valid data.
+Click the 'Send' button.
+Desired Results:
+Form data is sent to the server.
+A confirmation message is displayed to the user.
+Form data is received at the server-side (verified through server logs or email receipt).
+
+
+Test Case 4: Newsletter Sign-Up
+Test Case ID: TC-ASA-006
+Requirement: ASA-006
+Preconditions: User is on the homepage where the newsletter sign-up is visible.
+Steps:
+Enter a valid email address in the newsletter sign-up field.
+Click the 'Sign Up' button.
+Desired Results:
+The email address is added to the newsletter subscription list.
+A confirmation message or email is sent to the provided email address.
+
+
+Test Case 5: Accessibility Compliance
+Test Case ID: TC-ASA-008
+Requirement: ASA-008
+Preconditions: The website is loaded on a web browser.
+Steps:
+Use an accessibility tool (like WAVE) to analyze the website.
+Manually check keyboard navigability and screen reader compatibility.
+Desired Results:
+The tool reports no critical accessibility issues.
+The website is navigable using a keyboard and is screen-reader friendly.
+
+
+Test Case 6: Event Section Interaction
+Test Case ID: TC-ASA-010
+Requirement: ASA-010
+Preconditions: Events are listed in the EVENTS section.
+Steps:
+View the list of upcoming events.
+Interact with event details (if applicable, like RSVP links).
+Desired Results:
+Events are displayed correctly with all relevant details.
+RSVP or other interaction links (if present) work as expected.
