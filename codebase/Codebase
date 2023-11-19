@@ -231,18 +231,653 @@
 </head>
 <body>
 
+    <div class="events-header">UPCOMING EVENTS</div>
 
+    <div class="events-container">
+        <!-- Event 1 -->
+        <div class="event-card">
+            <img src="gala-image.jpg" alt="Fall Gala" style="object-fit: cover; height: 200px;"> <!-- Adjusted height and object-fit -->
+            <div class="event-info">
+                <div class="event-title">Fall Gala</div>
+                <div class="event-description">
+                    Join us for an unforgettable evening celebrating the rich tapestry of African heritage. Experience the essence and vibrancy of Africa in one night.
+                </div>
+                <a class="rsvp-button" href="#">RSVP</a>
+            </div>
+        </div>
 
+        <!-- Event 2 -->
+        <div class="event-card">
+            <img src="bonfire-image.jpg" alt="ASA Bonfire" style="object-fit: cover; height: 200px;"> <!-- Adjusted height and object-fit -->
+            <div class="event-info">
+                <div class="event-title">ASA Bonfire</div>
+                <div class="event-description">
+                    Join us for an enchanting evening under the stars at the ASA Bonfire Night! Relish delectable dishes while swaying to captivating rhythms.
+                </div>
+                <a class="rsvp-button" href="#">RSVP</a>
+            </div>
+        </div>
 
+        <!-- Event 3 -->
+        <div class="event-card">
+            <img src="banquet-image.jpg" alt="ASA Banquet" style="object-fit: cover; height: 200px;"> <!-- Adjusted height and object-fit -->
+            <div class="event-info">
+                <div class="event-title">ASA Banquet</div>
+                <div class="event-description">
+                    Dive into a feast of authentic dishes, witness breathtaking performances, and indulge in many more surprises. Prepare to be spellbound.
+                </div>
+                <a class="rsvp-button" href="#">RSVP</a>
+            </div>
+        </div>
+    </div>
 
+    <div class="more-events">
+        <button>More Events</button>
+    </div>
 
+</body>
 
+  <hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALUMNI SPOTLIGHT</title>
+    <style>
+        /* ... existing style ... */
+        /* Add the rest of the CSS from the previous response here */
 
+          body {
+              font-family: 'Times New Roman', Times, serif
+              margin: 0;
+              padding: 0;
+              background: #fff; /* White background */
+              color: #000; /* Black text */
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          .spotlight-header {
+              font-size: 2em;
+              margin: 40px 0;
+          }
+          .alumni-container {
+              display: flex;
+              justify-content: center;
+              flex-wrap: wrap;
+              gap: 20px;
+          }
+          .alumni-profile {
+              background: #f9f9f9;
+              padding: 20px;
+              border-radius: 10px;
+              width: 300px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+              text-align: center;
+              transition: all 0.3s ease;
+          }
+          .alumni-image {
+              border-radius: 50%;
+              width: 120px;
+              height: 120px;
+              margin-bottom: 15px;
+              object-fit: cover; /* Ensures the image fits the circle */
+              border: 3px solid #000; /* Black border for the image */
+          }
+          .alumni-name {
+              font-size: 1.1em;
+              margin-bottom: 5px;
+          }
+          .alumni-description {
+              font-size: 0.9em;
+              margin-bottom: 20px; /* Increase spacing to prevent overlap */
+          }
+          .linkedin-button {
+              background: #000; /* Black background for the button */
+              color: white; /* White text for the button */
+              padding: 10px 15px;
+              border-radius: 5px;
+              text-decoration: none; /* Remove underline from links */
+              transition: background-color 0.3s;
+              display: inline-block; /* To enable use of margin and padding */
+              margin-bottom: 15px; /* Space below the button */
+          }
+          .linkedin-button:hover {
+              background-color: #333; /* Darker on hover */
+          }
+          .navigation, .alumni-directory {
+              margin: 20px 0;
+          }
+          .alumni-directory button {
+              background: #000; /* Black background for the button */
+              color: white; /* White text for the button */
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer; /* Hand icon on hover over the button */
+              transition: background-color 0.3s;
+            font-family: 'Times New Roman', Times, serif;
+          }
+          .alumni-directory button:hover {
+              background-color: #333; /* Darker on hover */
+          }
+          /* Navigation arrows */
+          .navigation a {
+              color: #000; /* Black arrows */
+              text-decoration: none; /* Remove underline from links */
+              font-size: 2em;
+              padding: 0 20px;
+              text-align: center;
+              cursor: pointer; /* Hand icon on hover over the arrows */
+              user-select: none; /* Prevent selection */
+          }
+      </style>
+
+</head>
+<body>
+
+    <div class="spotlight-header">ALUMNI SPOTLIGHT</div>
+
+    <div class="alumni-container">
+        <!-- Alumni 1 -->
+        <div class="alumni-profile">
+            <img src="josah-oginga.jpg" alt="Josah Oginga" class="alumni-image">
+            <div class="alumni-description">
+                Josah Oginga '22, a former ASA president and treasurer from Kenya, is currently a Schwarzman Scholar in Beijing, delving into policy, finance, and tech for sustainable development.
+            </div>
+            <div class="alumni-name">Josah Oginga</div>
+            <a href="#" class="linkedin-button">LINKEDIN</a>
+        </div>
+
+        <!-- Alumni 2 -->
+        <div class="alumni-profile">
+            <img src="anne-otieno.jpg" alt="Anne Otieno" class="alumni-image">
+            <div class="alumni-description">
+                Anne Otieno '21, a former secretary of ASA, now champions innovation as a Product Solution Consultant at Google. With a blend of cultural advocacy and tech prowess, Anne continues to make strides in the tech world.
+            </div>
+            <div class="alumni-name">Anne Otieno</div>
+
+            <a href="#" class="linkedin-button">LINKEDIN</a>
+        </div>
+
+        <div class="alumni-profile">
+            <img src="josah-oginga.jpg" alt="Josah Oginga" class="alumni-image">
+            <div class="alumni-description">
+                Josah Oginga '22, a former ASA president and treasurer from Kenya, is currently a Schwarzman Scholar in Beijing, delving into policy, finance, and tech for sustainable development.
+            </div>
+            <div class="alumni-name">Josah Oginga</div>
+            <a href="#" class="linkedin-button">LINKEDIN</a>
+        </div>
+
+    </div>
+
+    <div class="navigation">
+        <!-- Navigation arrows -->
+        <a href="#">&#10094;<!-- Left arrow --></a>
+        <a href="#">&#10095;<!-- Right arrow --></a>
+    </div>
+
+    <div class="alumni-directory">
+        <button>ALUMNI DIRECTORY</button>
+    </div>
+
+</body>
+  <hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONATE TO ASA</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif; /* Using Times New Roman */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #fff; /* White background */
+            color: #000; /* Black text color */
+        }
+        .donation-container {
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal columns */
+            column-gap: 20px;
+            align-items: center;
+            background: #fff; /* White background for the container */
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .donation-text {
+            color: #000; /* Black text color */
+        }
+        .donation-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .donation-text p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .donation-button {
+            background-color: #000; /* Black background for the button */
+            color: #fff; /* White text for the button */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 4px; /* Optional: Adds rounded corners to the button */
+        }
+        .donation-button:hover {
+            background-color: #333; /* Darker grey on hover */
+        }
+        .donation-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px; /* Optional: Adds rounded corners to the image */
+        }
+    </style>
+</head>
+ 
+  
+<body>
+
+    <div class="donation-container">
+        <div class="donation-text">
+            <h2>DONATE TO ASA.</h2>
+            <p>Your contribution is more than just a donation; it's a testament to the importance of preserving and promoting African culture. By donating, you empower us to continue our mission, ensuring that the vibrant colors of African culture remain vivid and influential for generations to come. Join our cause and make a difference today.</p>
+            <button class="donation-button">DONATE</button>
+        </div>
+        <div class="donation-image">
+            <img src="alumni-image.jpg" alt="ASA Alumni Celebrating">
+        </div>
+    </div>
+
+</body>
+</html>
+
+<hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXECUTIVE TEAM</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .team-header {
+            font-size: 2em;
+            margin: 40px 0;
+        }
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px; /* Added gap for spacing */
+        }
+        .team-member {
+            width: calc(50% - 40px); /* Subtract gap from width */
+            margin: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content vertically */
+        }
+        .team-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 15px;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .team-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the image covers the area */
+        }
+        .member-info {
+            margin-bottom: 15px;
+        }
+        .member-name {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .member-role {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 15px; /* Increased margin */
+        }
+        .read-bio-button {
+            text-decoration: none;
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            display: block; /* Block display for full width */
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 10px auto 0; /* Align horizontally */
+            width: fit-content; /* Fit content width */
+        }
+        .read-bio-button:hover {
+            background-color: #555;
+        }
+        .eboard-list-button {
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin: 20px auto; /* Auto margins for horizontal alignment */
+            display: block; /* Block display for full width */
+            transition: background-color 0.3s;
+            width: fit-content; /* Fit content width */
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .eboard-list-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+  
+<body>
+
+    <div class="team-header">EXECUTIVE TEAM | YEAR 2023-2024</div>
+
+    <div class="team-container">
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <!-- Update the 'src' with the path to your image -->
+                <img src="said-photo.jpg" alt="Said, President">
+            </div>
+            <div class="member-info">
+                <div class="member-name">Said</div>
+                <div class="member-role">President</div>
+                <a href="#" class="read-bio-button">Read Bio</a>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <!-- Update the 'src' with the path to your image -->
+                <img src="isaac-photo.jpg" alt="Isaac, Vice President">
+            </div>
+            <div class="member-info">
+                <div class="member-name">Isaac</div>
+                <div class="member-role">Vice President</div>
+                <a href="#" class="read-bio-button">Read Bio</a>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <!-- Update the 'src' with the path to your image -->
+                <img src="mostaphe-photo.jpg" alt="Mostaphe, Treasurer">
+            </div>
+            <div class="member-info">
+                <div class="member-name">Mostaphe</div>
+                <div class="member-role">Treasurer</div>
+                <a href="#" class="read-bio-button">Read Bio</a>
+            </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <!-- Update the 'src' with the path to your image -->
+                <img src="nega-photo.jpg" alt="Nega, Director of Technology">
+            </div>
+            <div class="member-info">
+                <div class="member-name">Nega</div>
+                <div class="member-role">Director of Technology</div>
+                <a href="#" class="read-bio-button">Read Bio</a>
+            </div>
+        </div>
+    </div>
+
+    <button class="eboard-list-button">E-BOARD LIST</button>
+
+</body>
+</html>
+
+<hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #000;
+        }
+        .contact-container {
+            width: 600px;
+            max-width: 90%;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            background: #fff;
+            margin: 20px;
+            text-align: center;
+        }
+        .contact-header {
+            font-size: 2em;
+            margin-bottom: 20px; /* Increased bottom margin */
+        }
+        .contact-text {
+            margin-bottom: 20px; /* Increased bottom margin */
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Increased gap for better spacing */
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            font-family: 'Times New Roman', serif; /* Set font family for inputs */
+            margin-bottom: 10px; /* Added for spacing */
+            width: 100%; /* Full width */
+        }
+        textarea {
+            height: 150px;
+            resize: vertical; /* Allow only vertical resizing */
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px; /* Rounded corners for the button */
+            font-family: 'Times New Roman', serif; /* Set font family for button */
+        }
+        input[type="submit"]:hover {
+            background-color: #333;
+        }
+        label {
+            text-align: left;
+            display: block; /* Ensure the label is on a new line */
+            margin-bottom: 5px; /* Space between label and input */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-container">
+        <div class="contact-header">Contact us.</div>
+        <p class="contact-text">We'd love to hear from you! Whether you have questions, suggestions, or want to collaborate, your input is invaluable in helping us promote and celebrate African culture.</p>
+        <form action="your-server-side-handler" method="POST">
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" placeholder="First Name" required>
+            </div>
+            <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Last Name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Message (required)" required></textarea>
+            </div>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+</body>
+</html>
+
+<hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
 
 
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer with Newsletter Sign Up</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around; /* Changed for equal spacing */
+            align-items: center;
+            padding: 20px;
+            background: #f8f8f8; /* Brown background */
+            color: black; /* Black text color */
+            flex-wrap: wrap; /* Wrap content on smaller screens */
+        }
+        .contact-info,
+        .newsletter,
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center alignment */
+            margin: 10px; /* Added for spacing */
+        }
+        .contact-info address,
+        .social-links {
+            font-style: normal;
+        }
+        .newsletter input[type="email"],
+        .newsletter input[type="submit"] {
+            padding: 8px;
+            margin: 5px 0; /* Adjusted margin for spacing */
+            border: 1px solid #ccc; /* Added border for visibility */
+            border-radius: 4px;
+            width: 100%; /* Full width inputs */
+        }
+        .newsletter input[type="submit"] {
+            background: #555;
+            color: white;
+            cursor: pointer;
+        }
+        .newsletter input[type="submit"]:hover {
+            background: #777;
+        }
+        .social-icons {
+            font-size: 1.5em;
+            margin: 5px 0; /* Adjusted margin for spacing */
+        }
+        .footer p {
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+        .footer a {
+            color: black; /* Black link color */
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="contact-info">
+            <strong>The African Student Association</strong>
+            <address>
+                101 Chestnut St<br>
+                Berea, KY 40403
+            </address>
+            <a href="tel:+1859979643">(859) 979-9643</a>
+            <a href="mailto:maailms@berea.edu">maailms@berea.edu</a>
+        </div>
+
+        <div class="newsletter">
+            <strong>Newsletter Sign Up</strong>
+            <form action="your-server-side-handler" method="post">
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="submit" value="Sign Up">
+            </form>
+        </div>
+
+        <div class="social-links">
+            <a href="your-instagram-url" class="social-icons">Instagram Icon</a>
+            <a href="your-facebook-url" class="social-icons">Facebook Icon</a>
+        </div>
+    </footer>
+    <p>Copyright - African Student Association © 2023</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
 
 <head>
     <meta charset="UTF-8">
