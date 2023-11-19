@@ -1,5 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BC - African Student Association</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+
+        }
+
+        /* Logo Styles */
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a, .donate-button {
+            text-decoration: none;
+            margin-left: 20px;
+            color: #000;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover, .donate-button:hover {
+            color: #555;
+        }
+
+        /* Donate Button Styles */
+        .donate-button {
+            background-color: #000;
+            color: #fff;
+            padding: 12px 24px; /* Slightly larger than the nav links */
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+            font-size: 1.1em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+      hr {
+      border-top: 2px solid #000; /* Black border */
+      width: 100%;
+
+        /* Container Styles */
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+
+        }
+
+        /* Description Styles */
+        .description {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        /* Image Styles */
+        img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        /* Button Styles */
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        /* Additional Styles */
+        /* ... (Include other styles for the events section here) */
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="path-to-logo.jpg" alt="ASA Logo" class="logo">
+        <nav>
+            <a href="#">ABOUT US</a>
+            <a href="#">EVENTS</a>
+            <a href="#">CONTACT US</a>
+            <button class="donate-button">DONATE</button>
+        </nav>
+    </header>
+
+    <hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
+
+    <div class="container">
+        <div class="description">
+            <h1>BC - African Student Association</h1>
+            <p>The BC-African Student Association is dedicated to promoting the rich cultural heritage of Africa, fostering unity among African students, and advancing mutual understanding and cooperation between African students and the wider community.</p>
+            <p>We hope to be a vibrant, inclusive community where African students thrive academically, socially, and culturally, while actively contributing to the enrichment of multiculturalism on campus and beyond.</p>
+            <button>JOIN ASA</button>
+        </div>
+        <img src="path-to-image.jpg" alt="African Student Association Gathering">
+    </div>
+</body>
+
+<hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPCOMING EVENTS</title>
+    <style>
+        body {
+            font-family:  'Times New Roman', serif;
+            background-color: #fff; /* White background */
+            margin: 0;
+            padding: 0;
+            color: #000; /* Black text */
+        }
+        .events-header {
+            text-align: center;
+            font-size: 2em;
+            margin-top: 20px;
+            color: #000; /* Black text */
+        }
+        .events-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px auto;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+        .event-card {
+            background: white;
+            width: calc(33.333% - 40px); /* Subtracting margin */
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .event-card img {
+            width: 100%;
+            height: auto; /* Ensure the aspect ratio is maintained */
+            display: block;
+            border-bottom: 1px solid #ccc; /* Add a subtle border */
+        }
+        .event-info {
+            padding: 15px;
+            flex-grow: 1; /* Ensure spacing takes up any extra space */
+            display: flex;
+            flex-direction: column;
+        }
+        .event-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #000; /* Black text */
+        }
+        .event-description {
+            font-size: 0.9em;
+            margin-bottom: auto; /* Push the button to the bottom */
+            color: #555;
+        }
+        .rsvp-button {
+            background: #000; /* Black background */
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 15px 0; /* Spacing above and below the button */
+        }
+        .rsvp-button:hover {
+            background-color: #222; /* Slightly lighter black on hover */
+        }
+        .more-events {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .more-events button {
+            padding: 10px 20px;
+            background: #000; /* Black background */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .more-events button:hover {
+            background-color: #222; /* Slightly lighter black on hover */
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
