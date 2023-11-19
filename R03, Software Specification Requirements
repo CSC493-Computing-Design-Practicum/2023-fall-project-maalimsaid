@@ -1,0 +1,81 @@
+# Software Requirements Specifications (SRS) - ASA Website
+
+## Requirement 1
+Number: ASA-001
+Statement: The website must have a responsive header with navigation links (ABOUT US, EVENTS, CONTACT US) and a DONATE button.
+Evaluation Method: Visual inspection and interaction testing on different devices to ensure responsive and functional navigation.
+Dependency: None
+Priority: Essential
+Requirement revision history: Nov 19, 2023, The requirement has been met
+
+## Requirement 2
+Number: ASA-002
+Statement: Implement a dynamic Alumni section where alumni information can be added, updated, or removed from the database.
+Evaluation Method: Testing CRUD (Create, Read, Update, Delete) operations on the Alumni section.
+Dependency: ASA-003 (Backend database setup)
+Priority: High
+Requirement revision history: Nov 19, 2023, The requirement is in progress, just received alumni data.
+
+## Requirement 3
+Number: ASA-003
+Statement: Set up a backend database using SQL and MongoDB to store and retrieve data for the Alumni section.
+Evaluation Method: Backend integration testing to ensure proper data handling and retrieval.
+Dependency: None
+Priority: Essential
+Requirement revision history: Nov 19, 2023, The requirement is in progress
+
+## Requirement 4
+Number: ASA-004
+Statement: Develop a contact form in the CONTACT US section with fields for name, email, and message.
+Evaluation Method: Submitting test data through the contact form and verifying receipt.
+Dependency: ASA-005 (Backend server setup for form handling)
+Priority: High
+Requirement revision history: Nov 19, 2023, The requirement is in progress
+
+## Requirement 5
+Number: ASA-005
+Statement: Create a backend server to handle form submissions from the CONTACT US section.
+Evaluation Method: Server logs and response checking after form submission.
+Dependency: None
+Priority: High
+Requirement revision history: Nov 19, 2023, The requirement has been met
+
+## Requirement 6
+Number: ASA-006
+Statement: Implement a newsletter sign-up section with email validation.
+Evaluation Method: Input validation testing and successful sign-up confirmation.
+Dependency: ASA-007 (Email service integration)
+Priority: Middle
+Requirement revision history: Nov 19, 2023, The requirement has been met
+
+## Requirement 7
+Number: ASA-007
+Statement: Integrate an email service to manage newsletter subscriptions.
+Evaluation Method: Subscription process testing and email receipt verification.
+Dependency: None
+Priority: Middle
+Requirement revision history: Nov 19, 2023, The requirement has is in progress
+
+## Requirement 8
+Number: ASA-008
+Statement: Ensure the entire website is accessible according to WCAG 2.1 guidelines.
+Evaluation Method: Accessibility testing using tools like WAVE or manual testing.
+Dependency: None
+Priority: High
+Requirement revision history: Nov 19, 2023, The requirement has been met
+
+## Requirement 9
+Number: ASA-009
+Statement: The website must have a footer with social media links and copyright information.
+Evaluation Method: Visual inspection and link testing.
+Dependency: None
+Priority: High
+Requirement revision history: Nov 19, 2023, The requirement has been met
+
+## Requirement 10
+Number: ASA-010
+Statement: Create a dynamic EVENTS section where upcoming events can be added, viewed, or updated.
+Evaluation Method: Admin panel testing for adding/updating events and user interface testing for viewing events.
+Dependency: ASA-003 (Backend database setup)
+Priority: If time permits
+Requirement revision history: Nov 19, 2023, The requirement is in progress
