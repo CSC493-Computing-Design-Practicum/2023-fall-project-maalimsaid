@@ -1,0 +1,50 @@
+Software Design Requirement for ASA Website Project
+
+Architectural Overview
+The ASA Website will adopt a three-tier architecture comprising the Presentation Layer, Business Logic Layer, and Data Access Layer. 
+This simplified structure ensures separation of concerns, enhancing maintainability and scalability.
+
+Presentation Layer
+Purpose: User interface of the website.
+Components:
+Homepage: Landing page with navigation to other sections.
+Events Page: Displays upcoming events with RSVP functionality.
+Alumni Page: Dynamic listing of alumni with CRUD operations.
+Donate Page: Interface for donation transactions.
+Contact Us Page: Form for inquiries and suggestions.
+Technologies: HTML5, CSS3, JavaScript.
+Data Flow: Interacts with the Business Logic Layer to send and receive data.
+
+Business Logic Layer
+Purpose: Core functionality and processing logic.
+Components:
+User Authentication: Manages user login and access controls.
+Event Manager: Handles event-related operations.
+Alumni Manager: Manages alumni data interactions.
+Donation Processor: Handles donation transactions.
+Contact Manager: Processes contact form submissions.
+Technologies: Node.js, Express.js.
+Data Flow: Receives user requests from Presentation Layer, processes them, and interacts with the Data Access Layer.
+
+Data Access Layer
+Purpose: Data storage and retrieval.
+Components:
+Database Connector: Interface for database interactions.
+SQL Database: Stores structured data like user profiles, events.
+MongoDB Database: Stores unstructured data like alumni information.
+Technologies: SQL (e.g., MySQL), MongoDB.
+Data Flow: Handles all data storage and retrieval requests from the Business Logic Layer.
+
+Control Hierarchy and Interactions
+User Interaction: Initiated at the Presentation Layer via web pages.
+Request Processing: The Business Logic Layer receives the request, processes it, and if required, communicates with the Data Access Layer.
+Data Handling: The Data Access Layer handles data storage and retrieval, sending responses back to the Business Logic Layer.
+Response Delivery: The Business Logic Layer sends the processed response back to the Presentation Layer to be presented to the user.
+
+Conventions and Reasoning
+MVC Pattern: Model-View-Controller pattern is used for clear separation between UI, logic, and data models.
+RESTful API Design: Business Logic Layer will expose RESTful APIs for data interaction, ensuring standardization and simplicity.
+Responsive Design: The website will be responsive to cater to various devices, using standard CSS frameworks like Bootstrap.
+Security and Data Protection: Secure handling of data and transactions, implementing encryption and secure APIs.
+This architectural design abstracts the essential components of the ASA website, presenting a clear, hierarchical structure that is simple to understand and reason about. 
+The flow of control and data through the system is straightforward, with distinct layers handling specific responsibilities efficiently.
