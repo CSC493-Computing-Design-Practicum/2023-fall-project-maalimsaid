@@ -5,8 +5,8 @@ fetch('https://yourserver.com/contact', {
     'Content-Type': 'application/json',
   },
   body: JSON.stringify({
-    name: 'John Doe',
-    email: 'john@example.com',
+    name: 'Said Maalim',
+    email: 'maalims@berea.edu',
     message: 'Hello ASA!',
   }),
 })
