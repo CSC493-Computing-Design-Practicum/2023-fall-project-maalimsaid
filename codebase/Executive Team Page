@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXECUTIVE TEAM</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color:#000;
+        }
+        .team-header {
+            font-size: 2em;
+            margin: 40px 0;
+        }
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px; /* Added gap for spacing */
+        }
+        .team-member {
+            width: calc(50% - 40px); /* Subtract gap from width */
+            margin: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content vertically */
+        }
+        .team-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 15px;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .team-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the image covers the area */
+        }
+        .member-info {
+            margin-bottom: 15px;
+        }
+        .member-name {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .member-role {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 15px; /* Increased margin */
+        }
+        .read-bio-button {
+            text-decoration: none;
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            display: block; /* Block display for full width */
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 10px auto 0; /* Align horizontally */
+            width: fit-content; /* Fit content width */
+        }
+        .read-bio-button:hover {
+            background-color: #555;
+        }
+        .eboard-list-button {
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin: 20px auto; /* Auto margins for horizontal alignment */
+            display: block; /* Block display for full width */
+            transition: background-color 0.3s;
+            width: fit-content; /* Fit content width */
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .eboard-list-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="team-header">EXECUTIVE TEAM | YEAR 2023-2024</div>
+
+    <div class="team-container">
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <!-- Update the 'src' with the path to your image -->
+                <img src="jay ASA.jpeg" alt="Said, President">
+            </div>
+            <div class="member-info">
+                <div class="member-name">Said</div>
+                <div class="member-role">President</div>
+                <a href="#" class="read-bio-button">Read Bio</a>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <!-- Update the 'src' with the path to your image -->
+                <img src="jay ASA.jpeg" alt="Isaac, Vice President">
+            </div>
+            <div class="member-info">
+                <div class="member-name">Isaac</div>
+                <div class="member-role">Vice President</div>
+                <a href="#" class="read-bio-button">Read Bio</a>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <!-- Update the 'src' with the path to your image -->
+                <img src="jay ASA.jpeg" alt="Mostaphe, Treasurer">
+            </div>
+            <div class="member-info">
+                <div class="member-name">Mostaphe</div>
+                <div class="member-role">Treasurer</div>
+                <a href="#" class="read-bio-button">Read Bio</a>
+            </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <!-- Update the 'src' with the path to your image -->
+                <img src="jay ASA.jpeg" alt="Nega, Director of Technology">
+            </div>
+            <div class="member-info">
+                <div class="member-name">Nega</div>
+                <div class="member-role">Director of Technology</div>
+                <a href="#" class="read-bio-button">Read Bio</a>
+            </div>
+        </div>
+    </div>
+
+    <button class="eboard-list-button">E-BOARD LIST</button>
+
+</body>
+</html>
+
+<hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
