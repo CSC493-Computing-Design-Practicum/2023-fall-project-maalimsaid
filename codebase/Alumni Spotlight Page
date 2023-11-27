@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALUMNI SPOTLIGHT</title>
+    <style>
+        /* ... existing style ... */
+        /* Add the rest of the CSS from the previous response here */
+
+          body {
+              font-family: 'Times New Roman', Times, serif
+              margin: 0;
+              padding: 0;
+              background: #fff; /* White background */
+              color: #000; /* Black text */
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          .spotlight-header {
+              font-size: 2em;
+              margin: 40px 0;
+          }
+          .alumni-container {
+              display: flex;
+              justify-content: center;
+              flex-wrap: wrap;
+              gap: 20px;
+          }
+          .alumni-profile {
+              background: #f9f9f9;
+              padding: 20px;
+              border-radius: 10px;
+              width: 300px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+              text-align: center;
+              transition: all 0.3s ease;
+          }
+          .alumni-image {
+              border-radius: 50%;
+              width: 120px;
+              height: 120px;
+              margin-bottom: 15px;
+              object-fit: cover; /* Ensures the image fits the circle */
+              border: 3px solid #000; /* Black border for the image */
+          }
+          .alumni-name {
+              font-size: 1.1em;
+              margin-bottom: 5px;
+          }
+          .alumni-description {
+              font-size: 0.9em;
+              margin-bottom: 20px; /* Increase spacing to prevent overlap */
+          }
+          .linkedin-button {
+              background: #000; /* Black background for the button */
+              color: white; /* White text for the button */
+              padding: 10px 15px;
+              border-radius: 5px;
+              text-decoration: none; /* Remove underline from links */
+              transition: background-color 0.3s;
+              display: inline-block; /* To enable use of margin and padding */
+              margin-bottom: 15px; /* Space below the button */
+          }
+          .linkedin-button:hover {
+              background-color: #333; /* Darker on hover */
+          }
+          .navigation, .alumni-directory {
+              margin: 20px 0;
+          }
+          .alumni-directory button {
+              background: #000; /* Black background for the button */
+              color: white; /* White text for the button */
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer; /* Hand icon on hover over the button */
+              transition: background-color 0.3s;
+            font-family: 'Times New Roman', Times, serif;
+          }
+          .alumni-directory button:hover {
+              background-color: #333; /* Darker on hover */
+          }
+          /* Navigation arrows */
+          .navigation a {
+              color: #000; /* Black arrows */
+              text-decoration: none; /* Remove underline from links */
+              font-size: 2em;
+              padding: 0 20px;
+              text-align: center;
+              cursor: pointer; /* Hand icon on hover over the arrows */
+              user-select: none; /* Prevent selection */
+          }
+      </style>
+
+</head>
+<body>
+
+    <div class="spotlight-header">ALUMNI SPOTLIGHT</div>
+
+    <div class="alumni-container">
+        <!-- Alumni 1 -->
+        <div class="alumni-profile">
+            <img src="jay ASA.jpeg" alt="Josah Oginga" class="alumni-image">
+            <div class="alumni-description">
+                Josah Oginga '22, a former ASA president and treasurer from Kenya, is currently a Schwarzman Scholar in Beijing, delving into policy, finance, and tech for sustainable development.
+            </div>
+            <div class="alumni-name">Josah Oginga</div>
+            <a href="#" class="linkedin-button">LINKEDIN</a>
+        </div>
+
+        <!-- Alumni 2 -->
+        <div class="alumni-profile">
+            <img src="jay ASA.jpeg" alt="Anne Otieno" class="alumni-image">
+            <div class="alumni-description">
+                Anne Otieno '21, a former secretary of ASA, now champions innovation as a Product Solution Consultant at Google. With a blend of cultural advocacy and tech prowess, Anne continues to make strides in the tech world.
+            </div>
+            <div class="alumni-name">Anne Otieno</div>
+
+            <a href="#" class="linkedin-button">LINKEDIN</a>
+        </div>
+
+        <div class="alumni-profile">
+            <img src="godwin asa.jpeg" alt="Josah Oginga" class="alumni-image">
+            <div class="alumni-description">
+                Josah Oginga '22, a former ASA president and treasurer from Kenya, is currently a Schwarzman Scholar in Beijing, delving into policy, finance, and tech for sustainable development.
+            </div>
+            <div class="alumni-name">Josah Oginga</div>
+            <a href="#" class="linkedin-button">LINKEDIN</a>
+        </div>
+
+    </div>
+
+    <div class="navigation">
+        <!-- Navigation arrows -->
+        <a href="#">&#10094;<!-- Left arrow --></a>
+        <a href="#">&#10095;<!-- Right arrow --></a>
+    </div>
+
+    <div class="alumni-directory">
+        <button>ALUMNI DIRECTORY</button>
+    </div>
+
+</body>
+
+  <hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
