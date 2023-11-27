@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer with Newsletter Sign Up</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0; /* Light grey background */
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background: #f0f0f0; /* Light grey background */
+            color: black;
+            flex-wrap: wrap;
+        }
+        .contact-info,
+        .newsletter,
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+        }
+        .contact-info address,
+        .social-links {
+            font-style: normal;
+        }
+        .newsletter input[type="email"],
+        .newsletter input[type="submit"] {
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .newsletter input[type="submit"] {
+            background: #555;
+            color: white;
+            cursor: pointer;
+        }
+        .newsletter input[type="submit"]:hover {
+            background: #777;
+        }
+        .social-icons {
+            font-size: 1.5em;
+            margin: 5px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: black;
+            text-decoration: none;
+        }
+        /* Placeholder for social media icons */
+        .icon-instagram, .icon-facebook {
+            font-family: Arial, sans-serif; /* Placeholder font */
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="contact-info">
+            <strong>The African Student Association</strong>
+            <address>
+                101 Chestnut St<br>
+                Berea, KY 40403
+            </address>
+            <a href="tel:+1859979643">(859) 979-9643</a>
+            <a href="mailto:maailms@berea.edu">maailms@berea.edu</a>
+        </div>
+
+        <div class="newsletter">
+            <strong>Newsletter Sign Up</strong>
+            <form action="your-server-side-handler" method="post">
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="submit" value="Sign Up">
+            </form>
+        </div>
+
+        <div class="social-links">
+            <!-- Replace these with actual icons or icon fonts if available -->
+            <a href="fb.png" class="social-icons icon-instagram">Instagram Icon</a>
+            <a href="fb.png" class="social-icons icon-facebook">Facebook Icon</a>
+        </div>
+    </footer>
+    <p>Copyright - African Student Association © 2023</p>
+</body>
+</html>
