@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #fff; /* White background */
+            margin: 0;
+            padding: 0;
+            color: #000; /* Black text */
+        }
+        .events-header {
+            text-align: center;
+            font-size: 2em;
+            margin-top: 20px;
+            color: #000; /* Black text */
+        }
+        .events-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px auto;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+        .event-card {
+            background: white;
+            width: calc(33.333% - 40px); /* Subtracting margin */
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .event-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 1px solid #ccc;
+        }
+        .event-info {
+            padding: 15px;
+            flex-grow: 1; /* Ensure spacing takes up any extra space */
+            display: flex;
+            flex-direction: column;
+        }
+        .event-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #000; /* Black text */
+        }
+        .event-description {
+            font-size: 0.9em;
+            margin-bottom: auto; /* Push the button to the bottom */
+            color: #555;
+        }
+        .rsvp-button {
+            background: #000; /* Black background */
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 15px 0; /* Spacing above and below the button */
+        }
+        .rsvp-button:hover {
+            background-color: #222; /* Slightly lighter black on hover */
+        }
+        .more-events {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .more-events button {
+            padding: 10px 20px;
+            background: #000; /* Black background */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .more-events button:hover {
+            background-color: #222; /* Slightly lighter black on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="events-header">Upcoming Events</div>
+
+    <div class="events-container">
+        <!-- Event 1 -->
+        <div class="event-card">
+            <img src="gala.jpeg" alt="Fall Gala"> <!-- Removed inline styles -->
+            <div class="event-info">
+                <div class="event-title">Fall Gala</div>
+                <div class="event-description">
+                    Join us for an unforgettable evening celebrating the rich tapestry of African heritage. Experience the essence and vibrancy of Africa in one night.
+                </div>
+                <a class="rsvp-button" href="#">RSVP</a>
+            </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="event-card">
+            <img src="Bonfire Party Flyer.png" alt="ASA Bonfire"> <!-- Removed inline styles -->
+            <div class="event-info">
+                <div class="event-title">ASA Bonfire</div>
+                <div class="event-description">
+                    Join us for an enchanting evening under the stars at the ASA Bonfire Night! Relish delectable dishes while swaying to captivating rhythms.
+                </div>
+                <a class="rsvp-button" href="#">RSVP</a>
+            </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="event-card">
+            <img src="Mixer Poster.jpeg" alt="ASA Banquet"> <!-- Removed inline styles -->
+            <div class="event-info">
+                <div class="event-title">ASA Banquet</div>
+                <div class="event-description">
+                    Dive into a feast of authentic dishes, witness breathtaking performances, and indulge in many more surprises. Prepare to be spellbound.
+                </div>
+                <a class="rsvp-button" href="#">RSVP</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="more-events">
+        <button>More Events</button>
+    </div>
+
+</body>
+</html>
+
+<hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
