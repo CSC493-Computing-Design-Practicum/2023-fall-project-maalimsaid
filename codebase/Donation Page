@@ -1,0 +1,77 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONATE TO ASA</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif; /* Using Times New Roman */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #fff; /* White background */
+            color: #000; /* Black text color */
+        }
+        .donation-container {
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal columns */
+            column-gap: 20px;
+            align-items: center;
+            background: #fff; /* White background for the container */
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .donation-text {
+            color: #000; /* Black text color */
+        }
+        .donation-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .donation-text p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .donation-button {
+            background-color: #000; /* Black background for the button */
+            color: #fff; /* White text for the button */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 4px; /* Optional: Adds rounded corners to the button */
+        }
+        .donation-button:hover {
+            background-color: #333; /* Darker grey on hover */
+        }
+        .donation-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px; /* Optional: Adds rounded corners to the image */
+        }
+    </style>
+  </head>
+
+
+  <body>
+
+    <div class="donation-container">
+        <div class="donation-text">
+            <h2>DONATE TO ASA.</h2>
+            <p>Your contribution is more than just a donation; it's a testament to the importance of preserving and promoting African culture. By donating, you empower us to continue our mission, ensuring that the vibrant colors of African culture remain vivid and influential for generations to come. Join our cause and make a difference today.</p>
+            <button class="donation-button">DONATE</button>
+        </div>
+        <div class="donation-image">
+            <img src="asa grads.jpeg" alt="ASA Alumni Celebrating">
+        </div>
+    </div>
+
+  </body>
+  </html>
+
+<hr style="border-top: 2px solid #000;"> <!-- Black border to divide the page -->
