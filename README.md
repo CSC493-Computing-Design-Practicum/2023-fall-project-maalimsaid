@@ -1,29 +1,64 @@
-# *Replace with YourProposedProposedProjectName*
+# *The African Student Association Club Website*
+
+https://docs.google.com/document/d/1uQLdbNrMOTlyCQZElNmGJxLN7pKK2capNRFPTSuz2hk/edit?usp=sharing
+
 ## Description/Motivation
 
-Your formally written project proposal description, and why it is useful/interesting/fun goes here. Try to be as descriptive as possible, as we will be discussing your project ideas during the brainstorming in class.
+The African Students Association (ASA) at Berea College has been a pivotal institution, fostering understanding, appreciation, and celebration of African cultures and heritage. Over the years, ASA has amassed a wealth of resources, hosted numerous events, and created a strong alumni network. As the current president of ASA and a Computer Science major, I recognize the importance of centralizing these resources, improving communication, and creating a digital footprint that would ensure the continuity and growth of the club. Therefore, I propose the development of a fully integrated and responsive website tailored for the ASA club.
 
 ### Prerequisites
 
-What is likely to be needed to install and to run *YourProposedProjectName* go here. If nothing is required (i.e. it is a website), state so.
+It's a website, no prerequisite.
 
 ## Built With
 
-- [afreamework1](http://www.aframework1.io/): A framework that is likly to be used goes here.
-- [afreamework2](http://www.aframework2.io/): A second framework that is likly to be used goes here.
-- IDE, if applicable
+Frontend Development:
+
+HTML/CSS/JS
+Bootstrap
+React.js
+
+Backend Development:
+
+Node.js
+Django 
+
+Database Management:
+
+MongoDB
+MySQL
+
+Content Management System (CMS):
+
+WordPress
+
+Version Control:
+
+Git
+
+Deployment and Hosting:
+
+Heroku
+
+Design and Prototyping
+
+Figma
+
+
+
+
+
+
 
 ## Author
 
-- **Your name**: *YourProposadProjectName* [yourLinkedIn or yourGithub profile](https://adrress)
+- **Said Maalim**: *ASA website* [https://www.linkedin.com/in/said-maalim-b7ba6a19b/](https://adrress)
 
 ## Acknowledgments
 
-- If you find code that you are going to use in YourProjectName, include author's name and URL here.
-- all who inspired the idea and/or the code in YourProjectName
-- other people you wish to acknowledge
+Professor Wilborne
 
 ## License (not required initially)
 
-This project is licensed under the ??? License - see the wiki page (https://en.wikipedia.org/wiki/Software_license) for details
+Not Licenced
 
