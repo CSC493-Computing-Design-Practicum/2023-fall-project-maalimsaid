@@ -1,0 +1,471 @@
+<style>
+        /* General Styles */
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+        }
+
+        /* Logo Styles */
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a, .donate-button {
+            text-decoration: none;
+            margin-left: 20px;
+            color: #000;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover, .donate-button:hover {
+            color: #555;
+        }
+
+        /* Donate Button Styles */
+        .donate-button {
+            background-color: #000;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+            font-size: 1.1em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* Container Styles */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        /* Description Styles */
+        .description {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        /* Image Styles */
+        img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        /* Button Styles */
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        /* Horizontal Rule Style */
+        hr {
+            border-top: 2px solid #000; /* Black border */
+            width: 100%;
+        }
+
+
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #fff; /* White background */
+            margin: 0;
+            padding: 0;
+            color: #000; /* Black text */
+        }
+        .events-header {
+            text-align: center;
+            font-size: 2em;
+            margin-top: 20px;
+            color: #000; /* Black text */
+        }
+        .events-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px auto;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+        .event-card {
+            background: white;
+            width: calc(33.333% - 40px); /* Subtracting margin */
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .event-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 1px solid #ccc;
+        }
+        .event-info {
+            padding: 15px;
+            flex-grow: 1; /* Ensure spacing takes up any extra space */
+            display: flex;
+            flex-direction: column;
+        }
+        .event-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #000; /* Black text */
+        }
+        .event-description {
+            font-size: 0.9em;
+            margin-bottom: auto; /* Push the button to the bottom */
+            color: #555;
+        }
+        .rsvp-button {
+            background: #000; /* Black background */
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 15px 0; /* Spacing above and below the button */
+        }
+        .rsvp-button:hover {
+            background-color: #222; /* Slightly lighter black on hover */
+        }
+        .more-events {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .more-events button {
+            padding: 10px 20px;
+            background: #000; /* Black background */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .more-events button:hover {
+            background-color: #222; /* Slightly lighter black on hover */
+        }
+
+
+        /* ... existing style ... */
+  
+
+          body {
+              font-family: 'Times New Roman', Times, serif
+              margin: 0;
+              padding: 0;
+              background: #fff; /* White background */
+              color: #000; /* Black text */
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          .spotlight-header {
+              font-size: 2em;
+              margin: 40px 0;
+          }
+          .alumni-container {
+              display: flex;
+              justify-content: center;
+              flex-wrap: wrap;
+              gap: 20px;
+          }
+          .alumni-profile {
+              background: #f9f9f9;
+              padding: 20px;
+              border-radius: 10px;
+              width: 300px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+              text-align: center;
+              transition: all 0.3s ease;
+          }
+          .alumni-image {
+              border-radius: 50%;
+              width: 120px;
+              height: 120px;
+              margin-bottom: 15px;
+              object-fit: cover; /* Ensures the image fits the circle */
+              border: 3px solid #000; /* Black border for the image */
+          }
+          .alumni-name {
+              font-size: 1.1em;
+              margin-bottom: 5px;
+          }
+          .alumni-description {
+              font-size: 0.9em;
+              margin-bottom: 20px; /* Increase spacing to prevent overlap */
+          }
+          .linkedin-button {
+              background: #000; /* Black background for the button */
+              color: white; /* White text for the button */
+              padding: 10px 15px;
+              border-radius: 5px;
+              text-decoration: none; /* Remove underline from links */
+              transition: background-color 0.3s;
+              display: inline-block; /* To enable use of margin and padding */
+              margin-bottom: 15px; /* Space below the button */
+          }
+          .linkedin-button:hover {
+              background-color: #333; /* Darker on hover */
+          }
+          .navigation, .alumni-directory {
+              margin: 20px 0;
+          }
+          .alumni-directory button {
+              background: #000; /* Black background for the button */
+              color: white; /* White text for the button */
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer; /* Hand icon on hover over the button */
+              transition: background-color 0.3s;
+            font-family: 'Times New Roman', Times, serif;
+          }
+          .alumni-directory button:hover {
+              background-color: #333; /* Darker on hover */
+          }
+          /* Navigation arrows */
+          .navigation a {
+              color: #000; /* Black arrows */
+              text-decoration: none; /* Remove underline from links */
+              font-size: 2em;
+              padding: 0 20px;
+              text-align: center;
+              cursor: pointer; /* Hand icon on hover over the arrows */
+              user-select: none; /* Prevent selection */
+          }
+
+
+        body {
+            font-family: 'Times New Roman', serif; /* Using Times New Roman */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #fff; /* White background */
+            color: #000; /* Black text color */
+        }
+        .donation-container {
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal columns */
+            column-gap: 20px;
+            align-items: center;
+            background: #fff; /* White background for the container */
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .donation-text {
+            color: #000; /* Black text color */
+        }
+        .donation-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .donation-text p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .donation-button {
+            background-color: #000; /* Black background for the button */
+            color: #fff; /* White text for the button */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 4px; /* Optional: Adds rounded corners to the button */
+        }
+        .donation-button:hover {
+            background-color: #333; /* Darker grey on hover */
+        }
+        .donation-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px; /* Optional: Adds rounded corners to the image */
+        }
+    
+      
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color:#000;
+        }
+        .team-header {
+            font-size: 2em;
+            margin: 40px 0;
+        }
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px; /* Added gap for spacing */
+        }
+        .team-member {
+            width: calc(50% - 40px); /* Subtract gap from width */
+            margin: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content vertically */
+        }
+        .team-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 15px;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .team-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the image covers the area */
+        }
+        .member-info {
+            margin-bottom: 15px;
+        }
+        .member-name {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .member-role {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 15px; /* Increased margin */
+        }
+        .read-bio-button {
+            text-decoration: none;
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            display: block; /* Block display for full width */
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 10px auto 0; /* Align horizontally */
+            width: fit-content; /* Fit content width */
+        }
+        .read-bio-button:hover {
+            background-color: #555;
+        }
+        .eboard-list-button {
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin: 20px auto; /* Auto margins for horizontal alignment */
+            display: block; /* Block display for full width */
+            transition: background-color 0.3s;
+            width: fit-content; /* Fit content width */
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .eboard-list-button:hover {
+            background-color: #555;
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0; /* Light grey background */
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background: #f0f0f0; /* Light grey background */
+            color: black;
+            flex-wrap: wrap;
+        }
+        .contact-info,
+        .newsletter,
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+        }
+        .contact-info address,
+        .social-links {
+            font-style: normal;
+        }
+        .newsletter input[type="email"],
+        .newsletter input[type="submit"] {
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .newsletter input[type="submit"] {
+            background: #555;
+            color: white;
+            cursor: pointer;
+        }
+        .newsletter input[type="submit"]:hover {
+            background: #777;
+        }
+        .social-icons {
+            font-size: 1.5em;
+            margin: 5px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: black;
+            text-decoration: none;
+        }
+        /* Placeholder for social media icons */
+        .icon-instagram, .icon-facebook {
+            font-family: Arial, sans-serif; /* Placeholder font */
+        }
+
+   
+
+    </style>
