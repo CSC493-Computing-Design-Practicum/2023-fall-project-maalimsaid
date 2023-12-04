@@ -1,0 +1,70 @@
+ASA Website Installation Report
+Installation Guide
+This guide will take you through the steps to install and set up the ASA Website on your local machine.
+
+Prerequisites
+Node.js installed on your computer. 
+MongoDB installed on your computer or access to a MongoDB database. 
+A code editor (like Visual Studio Code) installed. 
+
+Step-by-Step Installation
+Clone the Repository on the github link
+
+Open your terminal and run:
+
+bash
+Copy code
+git clone https://github.com/username/repolink
+
+cd ASA-website
+Install Dependencies: Install the Node.js dependencies defined in the package.json file.
+
+Install Dependencies
+
+In the terminal, run:
+
+bash
+Copy code
+npm install
+Environment Setup: Create a .env file in the root directory of the project. Add the necessary environment variables like MONGODB_URI.
+
+Environment Setup
+
+Example of .env content:
+
+bash
+Copy code
+MONGODB_URI=mongodb://localhost:27017/asaDatabase
+Run the Application: Start the server using Node.js.
+
+Run Application
+
+In the terminal, run:
+
+bash
+Copy code
+node server.js
+Access the Website: Open your web browser and go to http://localhost:3000 (or the port you set in your environment).
+
+Access Website
+
+You should now see the ASA Website running locally on your machine.
+
+Typical Use Cases
+Browsing Upcoming Events
+Users can view a list of upcoming events on the ASA Website. Each event has details and an RSVP option.
+
+
+Alumni Spotlight
+The Alumni Spotlight section features notable alumni, showcasing their achievements and contributions.
+
+
+Making Donations
+Users can contribute to the ASA by clicking the 'Donate' button, which redirects them to a secure donation page.
+
+
+Newsletter Subscription
+Members and visitors can subscribe to the ASA newsletter for regular updates and news.
+
+
+These use cases highlight the core functionalities of the ASA Website, emphasizing the features that are well-implemented and useful for the end-users.
