@@ -1,5 +1,5 @@
 // Example JavaScript Fetch API usage in your front-end code
-fetch('https://yourserver.com/contact', {
+fetch('https://server.com/contact', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
