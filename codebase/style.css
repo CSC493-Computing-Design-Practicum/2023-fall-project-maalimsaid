@@ -1,78 +1,274 @@
-/* style.css */
-body {
-    font-family: 'Times New Roman', serif;
-    padding: 20px;
-    margin: 0;
-    background-color: #008000; /* This is a green background */
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  
-  .logo {
-    max-width: 100px; /* Adjust as needed */
-    height: auto;
-  }
-  
-  .nav-links {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  nav a {
-    text-decoration: none;
-    margin: 0 15px;
-    color: #fff; /* Changed to white for contrast */
-    transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
-    color: #ccc;
-  }
-  
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Align items horizontally */
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .description {
-    flex: 1; /* Take up half the space */
-    margin-right: 20px; /* Add some spacing between text and image */
-  }
-  
-  .image-container {
-    flex: 1; /* Take up half the space */
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  button {
-    display: block;
-    width: 150px;
-    margin: 30px auto;
-    padding: 10px 15px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #555;
-  }
+        /* General Styles */
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+        }
+
+        /* Logo Styles */
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a, .donate-button {
+            text-decoration: none;
+            margin-left: 20px;
+            color: #000;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover, .donate-button:hover {
+            color: #555;
+        }
+
+        /* Donate Button Styles */
+        .donate-button {
+            background-color: #000;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+            font-size: 1.1em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* Container Styles */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        /* Description Styles */
+        .description {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        /* Image Styles */
+        img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        /* Button Styles */
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        /* Horizontal Rule Style */
+        hr {
+            border-top: 2px solid #000; /* Black border */
+            width: 100%;
+        }
+
+
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #fff; /* White background */
+            margin: 0;
+            padding: 0;
+            color: #000; /* Black text */
+        }
+        .events-header {
+            text-align: center;
+            font-size: 2em;
+            margin-top: 20px;
+            color: #000; /* Black text */
+        }
+        .events-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px auto;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+        .event-card {
+            background: white;
+            width: calc(33.333% - 40px); /* Subtracting margin */
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .event-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 1px solid #ccc;
+        }
+        .event-info {
+            padding: 15px;
+            flex-grow: 1; /* Ensure spacing takes up any extra space */
+            display: flex;
+            flex-direction: column;
+        }
+        .event-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #000; /* Black text */
+        }
+        .event-description {
+            font-size: 0.9em;
+            margin-bottom: auto; /* Push the button to the bottom */
+            color: #555;
+        }
+        .rsvp-button {
+            background: #000; /* Black background */
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 15px 0; /* Spacing above and below the button */
+        }
+        .rsvp-button:hover {
+            background-color: #222; /* Slightly lighter black on hover */
+        }
+        .more-events {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .more-events button {
+            padding: 10px 20px;
+            background: #000; /* Black background */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .more-events button:hover {
+            background-color: #222; /* Slightly lighter black on hover */
+        }
+
+
+        /* ... existing style ... */
+
+
+          body {
+              font-family: 'Times New Roman', Times, serif
+              margin: 0;
+              padding: 0;
+              background: #fff; /* White background */
+              color: #000; /* Black text */
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          .spotlight-header {
+              font-size: 2em;
+              margin: 40px 0;
+          }
+          .alumni-container {
+              display: flex;
+              justify-content: center;
+              flex-wrap: wrap;
+              gap: 20px;
+          }
+          .alumni-profile {
+              background: #f9f9f9;
+              padding: 20px;
+              border-radius: 10px;
+              width: 300px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+              text-align: center;
+              transition: all 0.3s ease;
+          }
+          .alumni-image {
+              border-radius: 50%;
+              width: 120px;
+              height: 120px;
+              margin-bottom: 15px;
+              object-fit: cover; /* Ensures the image fits the circle */
+              border: 3px solid #000; /* Black border for the image */
+          }
+          .alumni-name {
+              font-size: 1.1em;
+              margin-bottom: 5px;
+          }
+          .alumni-description {
+              font-size: 0.9em;
+              margin-bottom: 20px; /* Increase spacing to prevent overlap */
+          }
+          .linkedin-button {
+              background: #000; /* Black background for the button */
+              color: white; /* White text for the button */
+              padding: 10px 15px;
+              border-radius: 5px;
+              text-decoration: none; /* Remove underline from links */
+              transition: background-color 0.3s;
+              display: inline-block; /* To enable use of margin and padding */
+              margin-bottom: 15px; /* Space below the button */
+          }
+          .linkedin-button:hover {
+              background-color: #333; /* Darker on hover */
+          }
+          .navigation, .alumni-directory {
+              margin: 20px 0;
+          }
+          .alumni-directory button {
+              background: #000; /* Black background for the button */
+              color: white; /* White text for the button */
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer; /* Hand icon on hover over the button */
+              transition: background-color 0.3s;
+            font-family: 'Times New Roman', Times, serif;
+          }
+          .alumni-directory button:hover {
+              background-color: #333; /* Darker on hover */
+          }
+          /* Navigation arrows */
+          .navigation a {
+              color: #000; /* Black arrows */
+              text-decoration: none; /* Remove underline from links */
+              font-size: 2em;
+              padding: 0 20px;
+              text-align: center;
+              cursor: pointer; /* Hand icon on hover over the arrows */
+              user-select: none; /* Prevent selection */
+          }
+
+
+
   
